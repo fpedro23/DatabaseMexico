@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26974A01-00F1-46AA-8596-EB0149F25A02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DatabaseMexico</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0CA4BC2-DB13-48FA-BDB0-C11FAFA97FE9</key>
+		<string>ssh://github.com/fpedro23/DatabaseMexico.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DatabaseMexico.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0CA4BC2-DB13-48FA-BDB0-C11FAFA97FE9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/fpedro23/DatabaseMexico.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0CA4BC2-DB13-48FA-BDB0-C11FAFA97FE9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0CA4BC2-DB13-48FA-BDB0-C11FAFA97FE9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DatabaseMexico</string>
+		</dict>
+	</array>
+</dict>
+</plist>
