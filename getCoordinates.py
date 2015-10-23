@@ -17,8 +17,6 @@ db = MySQLdb.connect(host="localhost", # your host, usually localhost
 cur = db.cursor() 
 
 query = ("select e.nombre, m.nombre, m.id from estados e, municipios m WHERE e.id = m.estado_id AND m.latitud is NULL;")
-
-
 # Use all the SQL you like
 cur.execute(query)
 
@@ -29,7 +27,6 @@ for row in cur.fetchall() :
     url = url.encode('utf8')
     response = urllib.urlopen(url);
     data = json.loads(response.read())
-    
     
     if(data["status"] == "OK"):
         #print json.dumps(data, indent=4, sort_keys=True)
@@ -44,9 +41,7 @@ for row in cur.fetchall() :
         add_latLong = ("UPDATE municipios SET latitud=%s, longitud=%s WHERE id=\'%s\';" %(latitud, longitud, row[2]))
         print (add_latLong)
         cur.execute(add_latLong)
-
-    
-
+        
     if(data["status"] == "OVER_QUERY_LIMIT"):
         print row[1]
         print data["status"]
@@ -55,5 +50,3 @@ for row in cur.fetchall() :
     else:
         print row[1]
         print data["status"]
-
-
